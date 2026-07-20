@@ -2,13 +2,10 @@
 
 
 ### Business Problem
-[1-3 zdania: jaki jest kontekst i pytanie biznesowe.
-Podpowiedź: pomyśl analogicznie do objective z AdventureWorks —
-tu nie chodzi o "znalezienie różnic między regionami", tylko o
-odpowiedź na pytanie "czy sprzedaż idzie dobrze, i skąd to wiemy
-w jednym rzucie oka" — to jest istota dashboardu KPI]
-</br>
-</br>
+Is sales growing, and where are the warning signs?<br>
+This dashboard tracks sales data using five Key Performance Indicators, covering revenue growth and risk factors.
+</br></br>
+
 ### KPIs Tracked
 
 | KPI | What it measures | Why it matters |
@@ -18,31 +15,32 @@ w jednym rzucie oka" — to jest istota dashboardu KPI]
 | Discount Impact | ... | ... |
 | Return Rate | ... | ... |
 | Cohort Retention Rate | ... | ... |
+
 </br>
 
+
 ### Dataset
-https://www.kaggle.com/datasets/meruvakodandasuraj/e-commerce-customer-behavior-and-sales-20202026
-[Nazwa datasetu, źródło (link do Kaggle), krótki opis
-plików (orders, customers + agregaty do walidacji)]
-</br>
+Dataset for this dashboard comes from Kaggle: [E-Commerce Customer Behavior & Sales 2020–2026](https://www.kaggle.com/datasets/meruvakodandasuraj/e-commerce-customer-behavior-and-sales-20202026)<br>
+The tables `orders` and `customers` are the main data source. The dataset also includes two already aggregated tables, `monthly_revenue` and `product_summary`, which were used to compare the results of the SQL queries.
+</br></br>
 
 ### Tools Used
 - SQL (SQL Server) — data preparation, KPI calculations
 - Power BI — interactive dashboard
-</br>
+</br></br>
 
 ### Methodology
 [Krótko: jak podszedłeś do tematu — data discovery → quality
 checks → SQL queries per KPI → walidacja wyników względem
 gotowych agregatów → dashboard. To pokazuje proces, nie tylko efekt]
-</br>
-</br>
+</br></br>
+
 
 ### Key Insights
 [To wypełnisz na końcu, jak już zobaczysz wyniki w danych —
 2-4 konkretne wnioski, nie ogólniki typu "sprzedaż rośnie"]
-</br>
-</br>
+</br></br>
+
 
 ### Dashboard Preview
 [Screenshot(y) z 04_screenshots/]
