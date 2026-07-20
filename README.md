@@ -30,17 +30,20 @@ The tables `orders` and `customers` are the main data source. The dataset also i
 </br></br>
 
 ### Methodology
-[Krótko: jak podszedłeś do tematu — data discovery → quality
-checks → SQL queries per KPI → walidacja wyników względem
-gotowych agregatów → dashboard. To pokazuje proces, nie tylko efekt]
+Data Discovery → Quality Checks → KPI SQL Queries → Validation → Dashboard
+<br>
+- Data Discovery — analyzed structure and relations of main tables `orders` and `customers`
+- Quality Checks — verified data types, NULLS and duplicates
+- KPI SQL Queries — wrote five queries to calculate KPIs
+- Validation — compared SQL querries results with data inside `monthly_revenue` and `product_summary` tables
+- Dashboard — built Power BI interactive dashboard
 </br></br>
 
 
 ### Key Insights
-[To wypełnisz na końcu, jak już zobaczysz wyniki w danych —
-2-4 konkretne wnioski, nie ogólniki typu "sprzedaż rośnie"]
+*(to be completed after analysis)*
 </br></br>
 
 
 ### Dashboard Preview
-[Screenshot(y) z 04_screenshots/]
+*(to be completed after analysis)*
