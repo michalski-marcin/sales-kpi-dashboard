@@ -10,11 +10,11 @@ This dashboard tracks sales data using five Key Performance Indicators, covering
 
 | KPI | What it measures | Why it matters |
 |---|---|---|
-| Revenue & Growth Rate | ... | ... |
-| AOV | Average Value of customer orders | Improving AOV is one of the most effective ways to increase revenue |
-| Discount Impact | How discounts effects volumes and revenues | Even if discounted items can increase sales volume, it can be not enough to cover lower profits |
-| Return Rate | Percetange of returns made by customers | Processing returns is not free and can have big impact to revenue |
-| Cohort Retention Rate | Returning clients in set period of time | Helps to undestand long term value of customer aquisition |
+| Revenue & Growth Rate | Changes of revenue in a period of time | Identify trends, which is the main business problem in this scenario |
+| AOV | Average Value of customer's order | Improving AOV is one of the most effective ways to increase revenue |
+| Discount Impact | How discounts affects sales volumes and revenues | Discounted items can increase sales volume, but it may not be enough to offset lower margin |
+| Return Rate | Percetange of orders returned by customers | Processing returns is not free and can have big impact on revenue |
+| Cohort Retention Rate | Returning clients within a set period of time | Helps to understand long term value of customer aquisition |
 
 </br>
 
@@ -25,7 +25,7 @@ The tables `orders` and `customers` are the main data source. The dataset also i
 </br></br>
 
 ### Tools Used
-- SQL (SQL Server) — data preparation, KPI calculations
+- SQL (Postgresql) — data preparation, KPI calculations
 - Power BI — interactive dashboard
 </br></br>
 
