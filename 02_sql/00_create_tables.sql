@@ -59,3 +59,34 @@ CREATE TABLE orders (
 	pages_viewed_before_purchase SMALLINT,
 	is_repeat_customer BOOLEAN
 );
+
+-- monthly_revenue table
+
+CREATE TABLE monthly_revenue (
+    year SMALLINT,
+    month SMALLINT,
+    quarter VARCHAR(2),
+    orders INTEGER,
+    revenue_usd NUMERIC(12,2),
+    avg_order_value NUMERIC(10,2),
+    avg_discount_pct NUMERIC(5,2),
+    return_rate NUMERIC(5,2),
+    unique_customers INTEGER,
+    new_customers INTEGER,
+	PRIMARY KEY (year, month)
+);
+
+-- product_summary table
+
+CREATE TABLE product_summary (
+    category VARCHAR(50),
+    product_name VARCHAR(100),
+    total_orders INTEGER,
+    total_revenue_usd NUMERIC(12,2),
+    avg_price NUMERIC(10,2),
+    avg_rating NUMERIC(3,2),
+    return_rate NUMERIC(5,2),
+    avg_discount_pct NUMERIC(5,2),
+    avg_delivery_days NUMERIC(4,2),
+    PRIMARY KEY (category, product_name)
+);
